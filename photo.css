@@ -1,0 +1,349 @@
+body{
+    margin: 0%;
+    font-family: 'Noto Serif TC', serif;
+    max-width: 100%;
+    max-height:200px;
+    
+}
+
+.header{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/*content*/
+.header-box{
+margin: 0;
+width:100%;
+height: 51px;
+background: #A9BAAA;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.header-content{  
+    margin-right:104px; ;
+    font-weight: 700;
+    color: aliceblue;
+    letter-spacing: 0.2em;
+    font-size: 18px;
+    line-height: 146.3%;
+
+    transition: .1s linear, border-radius .3s ease-in;
+}
+
+.header-content:hover{
+    color: #486D4B;
+}
+
+
+.header-content{
+    position:relative;
+  }
+
+
+
+  .header-content::after{
+    content:" ";
+    position: absolute;
+    right:50%;
+    left:50%;
+    bottom:-5px;
+    border-bottom:2px solid  #486D4B;
+    transition: .3s;
+  }
+  .header-content:hover::after{
+    right:5%;
+    left:0%;
+  }
+
+
+.草地{
+    width: 100%;
+}
+
+.contact{
+    font-family: 'Noto Sans TC', sans-serif;
+display: flex;
+margin:auto;
+margin-top: 30px;
+width: 160PX;
+font-weight: 300;
+font-size: 20px;
+letter-spacing: 1em;
+color: #2C2C2C;
+border: 1px solid #2C2C2C;
+border-radius: 53px;
+padding: 25px 30px 25px 50px;
+transition: .2s linear;
+}
+
+.contact:hover{
+    background-color: #2C2C2C;
+    color: aliceblue;
+}
+
+/*p1*/
+
+.P2{
+ margin-top: 150px;
+ display: flex;
+ justify-content: end;
+}
+
+
+
+.哆啦照片{
+    position: absolute;
+    left: 10%;
+}
+
+
+
+.舊物盛典{
+    margin-left: 350PX;
+    margin-top: 185px;
+    width: 350px;
+}
+
+.gray-box{
+    height: 630px;
+    width: 70%;
+    align-items: flex-end;
+    background: #EFEFEF;
+}
+
+
+.了解更多 { 
+    position: relative;
+    top: -5px;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 146.3%;      
+    letter-spacing: 0.915em;   
+    color: #486D4B;
+    line-height: 74px;
+
+width: 600px;
+height: 75px;
+display: flex;
+justify-content: center;
+background: #A9BAAA;
+margin: 0;
+border-radius: 0px 0px 30px 30px;
+
+transition: .2s linear, border-radius .5s ease-in;
+}  
+
+.了解更多:hover{
+    color: rgb(255, 255, 255);
+}
+
+h2{
+font-weight: 900;
+font-size: 25px;
+line-height: 140.8%;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+p{
+font-family: 'Noto Sans TC', sans-serif;
+font-weight: 300;
+font-size: 16px;
+line-height: 214.8%;
+letter-spacing: 0.05em;
+color: #7d7d7d;
+
+}
+
+.next{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    font-size: 11px;
+    color: #000000;
+    transition: .2s linear;
+}
+
+@keyframes swing{
+    
+        10%{transform:translateX(3px) ;}
+        60%{transform:translateX(-3px) ;}  
+    
+}
+
+.next:hover{
+    animation: swing 1s ;
+    
+}
+
+.箭頭{
+    height: 30PX;
+    width: 29PX;
+    margin-bottom: 5px;
+}
+
+.line{
+position:relative;
+bottom: 120px;
+left: 1190px;
+width: 327px;
+border: 0.01px solid #505050;    
+}
+
+.part3{
+    height: 700px;
+   display: flex;
+   justify-content: center;
+   margin-top: 150px;
+   background-image:url("img/Rectangle\ 29.png");
+   background-repeat: no-repeat;
+background-size:  100% 598px;
+   background-position: bottom center;
+   
+}
+
+.P3{
+    margin-right: 13px;
+ text-align:center;
+}
+
+.看更多{
+    margin-top: 60px;
+    transition: .3s linear;
+}
+
+.看更多:hover{
+    scale:95%;
+}
+
+.part4{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: -5px;
+}
+
+.part4-content{
+    margin-right: 90px;
+}
+
+.海洋{
+    
+font-weight: 900;
+font-size: 65px;
+line-height: 112.8%;
+letter-spacing: 0.085em;
+color: #363636;
+margin: 0;
+margin-top:75px;
+margin-bottom: 10px;
+}
+
+.海洋img{
+width: 1022px;
+height: 454px;
+}
+
+.click{
+position: relative;
+top: 40px;
+left: 110px;
+font-weight: 900;
+font-size: 16px;
+line-height: 112.8%;
+letter-spacing: 0.205em;
+color: #486D4B;
+padding: 8px 20px;
+background: #A9BAAA;
+border-radius: 24px;
+transition: .1s linear;
+}
+
+.click:hover{
+    background-color: #486D4B;
+    color: #A9BAAA;
+}
+
+footer{ 
+    position:relative;
+    top: -5px;
+    height: 430px;
+    width: 100%;
+    margin: 0;
+    background-image:url("img/Rectangle 38.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+   
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LOGO{
+    width: 245px;
+    height: 61px;
+}
+
+.社群連結{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+
+
+/*back top*/
+.back-top {
+    z-index: 99999;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
+    width: 51px;
+    height: 35px;
+    background:  center no-repeat
+      url(file:///C:/Users/User/Desktop/%E5%93%88%E6%A0%B9/img/top.png);
+    background-size: 40px 25px;
+    border-radius: 12px;
+    /*border: 1px rgba(255, 255, 255, 0.6) solid;*/
+    transform: translateY(0%);
+    transition: all 0.2s linear;
+  }
+  
+  .back-top:hover {
+    opacity: 0.8;
+  }
+  
+  .back-top.hide {
+    opacity: 0;
+    filter: Alpha(opacity=0);
+    transform: translateY(150%);
+  }
+
+  .社群{
+    transition: .2s linear;
+  }
+
+  .社群:hover{
+    opacity: 0.6;
+    scale: 0.99;
+  }
